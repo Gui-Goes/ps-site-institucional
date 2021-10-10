@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="conteiner">
+            <h1>AcquaTec</h1>
+            <ul class="navbar">
+                <li><a href="index.html">Início</a></li>
+                <li> <a href="https://www.google.com.br/">Simulador</a></li>
+                <li>|</li>
+                <li>  <a href="tela_login.html">Login</a></li>
+                <li class="active">Cadastro</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="banner">
+        <div class="formlogin">
+                <h2>Seja bem vindo</h2>
+                <div>
+                    <div>
+                        <span>usuario: <br></span>
+                        <input id="usuario" placeholder= "insira seu novo usuario ">
+                    </div>
+
+                <div>
+                    <span>Email: <br></span>
+                    <input id="email" type="email" placeholder=" insira um email">                
+                </div>
+
+                <div>
+                    <span>Telefone: <br></span>
+                    <input id="Telefone" placeholder= "Telefone para contato ">
+                </div>
+                
+                <div>
+                    <span>Senha: <br></span>
+                    <input id="Senha" type="password" placeholder="*******">
+                    <br>
+                </div>
+                
+            </div>
+            <button onclick="cadastrar()">Cadastrar</button>
+        
+        </div>
+    </div>
+
+
+
+
+
+    <div class="footer">
+        <p>Feito por amor por um aluno bandtec©</p>
+    </div>
+</body>
+</html>
+<script>
+    function cadastrar(){
+     
+        if(email.value != 0){
+            alert(`um email de validação foi enviado para ${email.value}`)}
+        else{ alert(`email invalido`)}
+        
+    
+    }
+</script>
